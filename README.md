@@ -39,7 +39,7 @@ Useful sed tips, techniques and tricks for daily usage.
 `sed -n '10p' myfile.txt` 
 
 #### Do replacement on all lines except line 5
-`sed '5!/s/foo/bar/' file.txt`
+`sed '5!s/foo/bar/' file.txt`
 
 #### Do replacement on lines matching regex (eg: lines starting with 'hello')
 `sed '/^hello/ s/h/H/' file.txt ` 
